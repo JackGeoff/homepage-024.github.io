@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/styles.css">
+ 	<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap">
+	<title>homepage</title>	
+ 	
+
+</head>
+
+	<body>
+	 
+	 	 <div class="container">
+			 <div class = "section nav">
+			     <script>
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('afterbegin', data);
+            });
+    </script>	 	 	 
+    </div>
+	 	 	 <div class="section home">
+
+				 <h1>Hello! My name is:<span class="word">Geoffrey</span><br>
+	 	 	 	 I am a <span class ="word">Web Designer</span></h1>
+	 	 	 	 <br>
+				 <p style="color:white;">
+I am a passionate website developer, I thrive on crafting digital experiences that seamlessly blend creativity and functionality. With a keen eye for design and a robust understanding of the latest web technologies, I specialize in bringing ideas to life on the digital canvas. From sleek and responsive user interfaces to powerful back-end systems, I am dedicated to delivering websites that not only meet but exceed client expectations. My commitment to staying current with industry trends ensures that each project is infused with innovation, creating a dynamic and engaging online presence for businesses and individuals alike.
+	 	 	 	 </p>
+	 	 	 	 <br>
+				 <h3 style="color:white; padding-left:40px">
+	 	 	 		 Want to learn more about me? <span class="word"> Click the button below.</span>
+				 </h3>
+
+ 	 	 	 	 <center><button><a id="txt" href="about.html">MORE ABOUT ME </a></button></center>
+			 </div>
+
+	 	 	 <div class="section image">
+				 <img src="Geoff.jpg"alt="photo" width="315" height= "610" style="padding-top:100px; padding-right:0; padding-bottom:0; padding-left:30px;"> 
+
+	 	 	 	
+	 	 	 </div>
+
+	 	 </div>
+	 
+	 </body >
+
+</html>

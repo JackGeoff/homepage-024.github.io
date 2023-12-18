@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+ 	 	 <title>about me </title>
+	 	 <link rel="stylesheet" href="../css/styles.css">
+	 	
+
+	 </head>
+
+	 <body>
+
+	 <div class="container">
+		 <div class = "section nav">
+      <script>
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('afterbegin', data);
+            });
+    </script>	
+    </div >
+		 	 
+			 <div class= "section home">
+
+				 <h1> About Me:	<h2>I'm a website designer</h2> </h1>
+
+				 <p style="font-size: 30;" >
+
+Meet Geoff, a talented web designer hailing from Kenya with a passion for creating visually stunning and unique websites. With a knack for both software development and graphic design, seamlessly blending artistic flair with technical prowess. My commitment to originality shines through as I proudly declare, "No templates here!" My expertise lies not only in crafting aesthetically pleasing interfaces but also in the intricacies of back-end software development. As a Kenyan software developer who challenges the status quo, I bring a fresh perspective to the world of web design, proving that innovation and individuality can coexist in the digital realm.
+	 	           	 </p>
+	 	 	 
+			 </div>
+	 	 	 
+			 <div class= "section image">
+				 <img src="image.jpg" width="650" height="700"> 
+			  </div>
+	 	 
+	 
+
+	 </div>
+
+
+	 </body>
+</html>

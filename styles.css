@@ -1,0 +1,146 @@
+	 *{
+		 margin:0px;
+ 	 	 padding:0px;
+		 box-sizing:border-box;
+	 
+	}
+	 body{
+                 background-color:#4B4645;
+		 background-size:cover;
+		 color:white;
+		 display:flex;
+		 margin:0;
+		 padding:0;
+	 }
+
+	 h1{
+	 	 color:white;
+	 	 font-family:monospace;
+		 margin-top:100px;
+		 margin-left:100px;
+	 }
+
+	 h2{
+ 	 	 color:peru;
+		 font-family:cursive;
+		 margin-left:100px;
+	 }
+
+	 p {
+	 	 padding-left:40px; 
+		 margin-bottom:50px;
+		 margin-left:40px;
+ 	 	 font-size:25px;
+		 color:white;
+		 padding-top:10px;
+	 }
+
+	 .container {
+	  	 display:flex;
+	  	 height: 100vh;
+		 flex-direction:row;
+		 padding:0;
+		 margin:0;
+	 }
+
+	 .section{
+	 	 flex:1;
+	 	 padding:20px;
+ 	 	 box-sizing:border-box;
+		 padding:0;
+		 margin:0;
+		 flex-direction:column;
+	 }
+
+ 	  nav{
+		 z-index:1;
+		 flex: 0 0 150px;
+		 background-color:#343131;
+		 color:white;
+		 font-family:arial;
+		 padding-top:0;
+		 height:100vh;
+		 position:fixed;
+		 left:0;
+		 width:150px;
+		 margin:0;
+		 padding:0;
+		 margin-top:0;
+	 }
+
+	 .home{
+		 background-color:#4B4645;
+		 color:peru;
+		 flex:5;
+		 margin-left:20px;
+		 padding:0;
+		 margin:0;
+	 }
+
+	 .image{
+		 background-color:#4B4645;
+		 flex:3;
+		 margin-top:0;
+		 margin-left: 30px;
+		 margin-right:0;
+	 }
+
+	 nav ul{
+		 list-style-type:none;
+		 padding:15px;
+		 text-align:center;
+		 cursor:pointer;
+		 color:black;
+		 margin:0;
+		 display:flex;
+	 }
+
+	 nav ul a {
+ 		 display:block;
+		 padding:0;
+		 text-decoration:none;
+		 margin-bottom:0;
+		 margin-top:0;
+		 color:peru;
+		 padding-top:0px;
+	 }
+
+
+
+	 ul a:hover {
+ 		 
+		 padding:10px;
+		 transition:background-color:0.3s, color 0.3s;
+		 border-radius:10px;
+		 color:orangered;
+		
+	 }
+
+	 .word{
+		 font-family:'Dancing Script', cursive;
+		 color:peru;
+	 }
+
+	 button {
+		 background-color:orangered;
+		 color:white;
+		 padding:10px;
+		 border-radius:10px;
+	 }
+
+	 button:hover{
+		 padding:10px;
+		 background:lightsalmon;
+		 border-radius:10px;
+	 }
+
+	 #txt{
+		 color:white;
+		 text-decoration:none;
+	 }
+
+	 #home{
+		 padding-top:200px;
+	 }
+	
+
